@@ -1,0 +1,23 @@
+.optionsList {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.optionsBtn {
+    border: none;
+    background-color: burlywood;
+    color: black;
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 250ms ease-in-out, opacity 250ms ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+        opacity: 85%;
+    }
+}
